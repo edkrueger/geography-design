@@ -1,7 +1,6 @@
-
-
 import pandas as pd
 import numpy as np
+
 
 def haversine(p1_lon, p1_lat, p2_lon, p2_lat):
 
@@ -43,6 +42,7 @@ def euclidean(p1_lon, p1_lat, p2_lon, p2_lat):
     radius_of_earth_km = 6367
 
     return radius_of_earth_km * d_r
+
 
 aid_df = pd.read_csv("data/aid.csv").rename(
     columns={"ids": "aid_id", "latitude": "aid_lat", "longitude": "aid_lon"}

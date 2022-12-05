@@ -159,7 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-data/distance.csv
-data/design.csv
-data/demo_design.csv
-data/demo_distance.csv
+data/distance*.csv
+data/design*.csv

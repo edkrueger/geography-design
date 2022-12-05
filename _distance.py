@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def haversine(p1_lon, p1_lat, p2_lon, p2_lat):
 
     p1_lon_r, p1_lat_r, p2_lon_r, p2_lat_r = map(

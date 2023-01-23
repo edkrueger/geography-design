@@ -1,2 +1,4 @@
 numpy
 pandas
+geopandas # not required for the library, but for the traditional approach
+geopy # not required for the library, but for the traditional approach
